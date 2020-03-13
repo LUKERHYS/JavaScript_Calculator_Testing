@@ -84,7 +84,7 @@ describe('calculator functionality', function() {
     expect(displayed_total.getAttribute('value')).to.eventually.equal('100000000')
   })
 
-  it('should return not a number as you can not devide by zero', function(){
+  it('should return not a number as you can not divide by zero', function(){
     displayed_total = element(by.css('#running_total'))
     element(by.css('#number6')).click();
     element(by.css('#number6')).click();
